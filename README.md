@@ -4,7 +4,7 @@
 [![npm download][npm-dl-img]][npm-url]
 [![build][build-img]][build-url]
 
-> Omit empty values of an array|object
+> Omit empty values of an array | object
 
 ### Installation
 
