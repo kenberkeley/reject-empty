@@ -2,7 +2,7 @@
   "name": "reject-empty",
   "description": "Omit empty values of an array|object",
   "author": "Ken Berkeley <kenberkeley@foxmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "test": "ava",
     "cov": "nyc ava"
