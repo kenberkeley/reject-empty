@@ -1,0 +1,25 @@
+{
+  "name": "reject-empty",
+  "description": "Omit empty values of an array|object",
+  "author": "Ken Berkeley <kenberkeley@foxmail.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ava",
+    "cov": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenberkeley/reject-empty.git"
+  },
+  "keywords": [
+    "clear",
+    "empty",
+    "omit",
+    "reject"
+  ],
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "nyc": "^10.2.0"
+  },
+  "license": "MIT"
+}
