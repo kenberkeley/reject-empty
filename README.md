@@ -14,7 +14,7 @@
 > Let's take a look at the test examples
 
 ```
-test('omit empty values except 0 of an array', t => {
+test('omit empty values except zero of an array', t => {
   t.deepEqual(
     rejectEmpty(
       [0, '0', undefined, null, NaN, false, '', true, 1, 'hello', { a: 1 }, [2]]
@@ -33,7 +33,7 @@ test('omit empty values of an array', t => {
   )
 })
 
-test('omit empty values except 0 of an object', t => {
+test('omit empty values except zero of an object', t => {
   t.deepEqual(
     rejectEmpty(
       { a: 0, b: undefined, c: null, d: NaN, e: false, f: '', g: true, h: 'hello', i: { a: 1 }, j: [2] }
