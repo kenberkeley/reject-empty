@@ -1,4 +1,4 @@
-# rejectEmpty(sth `<array|object>`, omitZero `<Boolean>`)
+# rejectEmpty(sth `<Array|Object>`, omitZero `<Boolean>`)
 
 [![npm version][npm-v-img]][npm-url]
 [![npm download][npm-dl-img]][npm-url]
