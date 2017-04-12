@@ -5,18 +5,16 @@
  * @return {Array|Object}
  */
 module.exports = function (o, omitZero) {
-  if (Array.isArray(o)) {
-    return o.filter(function (el) {
-      return !isEmpty(el, omitZero);
-    });
-  } else {
-    var tmp = {}, v;
-    Object.keys(o).forEach(function (k) {
-      v = o[k];
-      if (!isEmpty(v, omitZero)) tmp[k] = v;
-    });
-    return tmp;
-  }
+  if (Array.isArray(o)) return o.filter(function (el) {
+    return !isEmpty(el, omitZero);
+  });
+  
+  var tmp = {}, v;
+  Object.keys(o).forEach(function (k) {
+    v = o[k];
+    if (!isEmpty(v, omitZero)) tmp[k] = v;
+  });
+  return tmp;
 };
 
 /**
